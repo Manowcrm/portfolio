@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cybersecurity Portfolio – Your Name</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #0d1117;
+            color: #e6e6e6;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            padding: 60px 20px;
+        }
+        h1 {
+            font-size: 42px;
+            margin-bottom: 5px;
+        }
+        h2 {
+            color: #58a6ff;
+            font-weight: 400;
+        }
+        .links {
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .link-box {
+            padding: 15px 25px;
+            background: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 10px;
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            transition: 0.3s;
+        }
+        .link-box:hover {
+            background: #238636;
+            border-color: #238636;
+        }
+        .section {
+            max-width: 900px;
+            margin: 40px auto;
+            text-align: left;
+            padding: 0 20px;
+        }
+        .section h3 {
+            font-size: 26px;
+            color: #58a6ff;
+        }
+        footer {
+            margin-top: 50px;
+            padding: 20px;
+            font-size: 14px;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Your Name</h1>
+        <h2>Cybersecurity Student | Ethical Hacking | SOC Analyst | Blue Team</h2>
+
+        <div class="links">
+            <a class="link-box" href="https://linkedin.com" target="_blank">LinkedIn</a>
+            <a class="link-box" href="YOUR_CV_LINK.pdf" target="_blank">Download CV</a>
+            <a class="link-box" href="https://github.com" target="_blank">GitHub</a>
+            <a class="link-box" href="mailto:youremail@example.com">Email Me</a>
+        </div>
+    </header>
+
+    <div class="section">
+        <h3>About Me</h3>
+        <p>
+            I am a cybersecurity student specializing in ethical hacking, penetration testing,
+            and digital forensics. I have hands-on experience with tools such as Burp Suite,
+            Kali Linux, Zeek, Suricata, Autopsy, and Volatility.
+        </p>
+    </div>
+
+    <div class="section">
+        <h3>Projects</h3>
+        <ul>
+            <li><strong>Web Application Pentest:</strong> SQL Injection, XSS, IDOR testing</li>
+            <li><strong>Network Monitoring with Zeek:</strong> Built security dashboards</li>
+            <li><strong>Memory Forensics:</strong> Investigated malware using Volatility</li>
+            <li><strong>CyberShield Somalia:</strong> Threat detection web dashboard</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h3>Skills</h3>
+        <ul>
+            <li>Penetration Testing & Web Security</li>
+            <li>Digital Forensics & Incident Response</li>
+            <li>Python, Bash, JavaScript</li>
+            <li>SIEM, Zeek, Suricata, Wireshark</li>
+        </ul>
+    </div>
+
+    <footer>
+        © 2025 Your Name — Cybersecurity Portfolio
+    </footer>
+
+</body>
+</html>
